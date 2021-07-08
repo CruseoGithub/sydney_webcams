@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcams</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<body>
+<div class="container">
+    <section class="one">
+        <div class="frame">
+            <div class="webcamcontainer" id="webcamcontainerID">
+                <iframe class="sydney"
+                        id="webcamifame"
+                        src="https://webcamsydney.com/"
+                        scrolling="no"
+                        onload="iframeOnLoad(this);">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section class="two">
+        <div class="frame">
+            <div class="webcamcontainer" id="webcamcontainerID">
+                <iframe class="youtubeplayer"
+                        src="https://www.youtube.com/embed/VoC3xhVpL-U?autoplay=1&&mute=1&controls=0"
+                        frameborder="0"></iframe>
+
+            </div>
+        </div>
+    </section>
+    <section class="three">
+        <div class="frame">
+            <div class="webcamcontainer" id="webcamcontainerID">
+                <iframe class="youtubeplayer"
+                        src="https://www.youtube.com/embed/rpS9vMij3yE?autoplay=1&&mute=1&controls=0"
+                        frameborder="0"></iframe>
+
+            </div>
+        </div>
+    </section>
+    <section class="four">
+        <div class="frame">
+            <div class="webcamcontainer" id="webcamcontainerID">
+                <iframe class="youtubeplayer"
+                        src="https://www.youtube.com/embed/koomTdslcMQ?autoplay=1&&mute=1&controls=0"
+                        frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+.container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+.frame{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    /*box-shadow: 1px 1px 1px olivedrab;*/
+    backdrop-filter: blur(5rem);
+    opacity: 80%;
+    padding: 2rem;
+}
+.webcamcontainer{
+    width: 84vw;
+    height: 84vh;
+    /*position: relative;*/
+    padding: 0;
+    overflow: hidden;
+    border-radius: 2rem;
+    position: relative;
+    -moz-border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    border-radius: 2rem;
+
+}
+.sydney{
+    overflow:hidden;
+    width: 85vw;
+    height: 85vh;
+    border: 0px;
+    zoom: 1.4;
+    margin: -300px;
+    -moz-transform: scale(1.4);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1.4);
+    -webkit-transform-origin: 0 0;
+    border-radius: 2rem;
+    visibility: collapse;
+    background: black;
+}
+
+.youtubeplayer{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+
+}
+.one{
+    background: dimgrey;
+}
+.two{
+    background: darkseagreen;
+}
+
+.three{
+    background: cadetblue;
+}
+
+.four{
+    background: darkslategrey;
+}
