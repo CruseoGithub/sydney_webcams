@@ -1,7 +1,7 @@
 # Sydney Webcams
 Page with multiple Webcams of Sydney. 
 
-Scrolling snaps automatically to next section.
+Scrolling snaps automatically to the next page section.
 Webcams are imported from youtube (and https://webcamsydney.com/) via iframes.
 
 
